@@ -1,0 +1,24 @@
+{
+  "outputFiles": [
+    {
+      "file": "Output/float-inputs.txt"
+    }
+  ],
+  "codes": [
+    {
+      "name": "Optional: Allow Bot Processed Input Overrides",
+      "authors": [
+        "ExPhil"
+      ],
+      "description": [
+        "Direct protocol v2 processed inputs and recorded RNG; requires matching EXI 0xDA support."
+      ],
+      "build": [
+        {
+          "type": "inject",
+          "sourceFile": "AI/OverwriteInputs/OverwriteProcessedInputs.asm"
+        }
+      ]
+    }
+  ]
+}
